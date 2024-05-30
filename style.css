@@ -1,17 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ffffff; /* white background */
+    color: #333333; /* dark text color for contrast */
 }
 
 header {
-    background: #35424a;
-    color: #fff;
+    background: #ff6600; /* orange background */
+    color: #ffffff; /* white text color */
     padding: 20px;
     text-align: center;
+}
+
+header .logo img {
+    max-width: 100px;
+    margin-bottom: 10px;
 }
 
 header h1 {
@@ -19,29 +24,80 @@ header h1 {
     font-size: 2.5em;
 }
 
-section {
+nav {
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background: #fff;
+    background: #ffffff; /* white background */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
+main section {
+    margin-bottom: 20px;
+}
+
+main section h2 {
     margin-top: 0;
+    color: #ff6600; /* orange color for section titles */
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background: #35424a;
-    color: #fff;
+    background: #ff6600; /* orange background */
+    color: #ffffff; /* white text color */
     position: fixed;
     width: 100%;
     bottom: 0;
 }
 
 .team-member {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ff6600; /* orange border */
     padding: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    padding: 10px;
+    background: #ff6600; /* orange background */
+    color: #ffffff; /* white text color */
+    border-radius: 5px;
+}
+
+ul li:hover {
+    background: #e65c00; /* slightly darker orange for hover effect */
 }
