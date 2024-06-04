@@ -23,6 +23,15 @@ section {
    margin: 1rem auto;
    max-width: 800px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#what-is-matex {
+   background-color: #FFA500;
+   text-align: center;
+}
+
+section#key-features {
+   background-color: #FFD700;
    text-align: center;
 }
 
@@ -79,4 +88,3 @@ footer {
        margin-right: 10px;
    }
 }
-
