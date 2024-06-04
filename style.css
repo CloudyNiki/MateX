@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: #FF8C00; /* DarkOrange */
+    background: #FFA500; /* Orange */
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -18,43 +18,31 @@ header h1 {
     margin: 0;
 }
 
-header p {
-    margin: 0.5rem 0 0;
-}
-
-#contact {
-    max-width: 800px;
-    margin: 1rem auto;
-    background: #fff;
-    padding: 1rem 2rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.contact-details {
-    flex: 1;
-}
-
-.contact-image img {
-    max-width: 150px; /* Adjust the size as needed */
-    margin-left: 20px;
-}
-
 section {
     padding: 1rem 2rem;
     margin: 1rem auto;
     background: #fff;
     max-width: 800px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#what-is-matex {
+    background-color: #FFA500; /* Orange */
+    text-align: center;
+}
+
+#key-features {
+    background-color: #FFD700; /* Gold */
+    text-align: center;
+}
+
+#team {
+    background-color: #FFD700; /* Gold */
+    text-align: center;
 }
 
 h2 {
-    border-bottom: 2px solid #FF4500; /* OrangeRed */
+    border-bottom: 2px solid #FFA500; /* Orange */
     padding-bottom: 0.5rem;
 }
 
@@ -64,29 +52,33 @@ ul {
 }
 
 ul li {
-    background: #FFDAB9; /* PeachPuff */
+    background: #ffe4b5; /* Moccasin */
     margin: 0.5rem 0;
     padding: 0.5rem;
     border-radius: 5px;
 }
 
+.team-member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.team-member img {
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.member-details {
+    text-align: left;
+    margin-right: 20px;
+}
+
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #FF8C00; /* DarkOrange */
+    background: #FFA500; /* Orange */
     color: #fff;
 }
 
-/* Media Queries for Responsive Design */
-@media (max-width: 768px) {
-    .contact-info {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .contact-image img {
-        margin-left: 0;
-        margin-top: 20px;
-        max-width: 100%; /* Ensure the image fits within the screen */
-    }
-}
