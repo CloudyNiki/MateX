@@ -7,6 +7,15 @@ body {
    background-color: #f4f4f4;
 }
 
+
+header {
+    background: #36648B; /* SteelBlue4*/
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
 header h1 {
    margin: 0;
    padding: 1rem 0;
@@ -18,6 +27,7 @@ section {
    padding: 1rem 2rem;
    margin: 1rem auto;
    max-width: 800px;
+   background: #fff;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -74,5 +84,6 @@ footer {
    .team-member img {
        margin-top: 0;
        margin-right: 10px;
+       max-width: 100%; /* Ensure the image fits within the screen */
    }
 }
