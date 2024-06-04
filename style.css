@@ -7,10 +7,14 @@ body {
    background-color: #f4f4f4;
 }
 
+header {
+   background-color: #FFA500;
+   text-align: center;
+   padding: 1rem 0;
+}
+
 header h1 {
    margin: 0;
-   padding: 1rem 0;
-   text-align: center;
    color: #fff;
 }
 
@@ -21,6 +25,16 @@ section {
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+section#what-is-matex {
+   background-color: #FFA500;
+   text-align: center;
+}
+
+section#key-features {
+   background-color: #FFD700;
+   text-align: center;
+}
+
 h2 {
    border-bottom: 2px solid #FF8C00; /* DarkOrange */
    padding-bottom: 0.5rem;
@@ -29,6 +43,7 @@ h2 {
 ul {
    list-style: none;
    padding: 0;
+   text-align: left; /* Adjust if you want list items centered */
 }
 
 ul li {
@@ -39,9 +54,9 @@ ul li {
 }
 
 footer {
+   background-color: #FFA500;
    text-align: center;
    padding: 1rem 0;
-   background: #FFA500; /* Orange */
    color: #fff;
 }
 
@@ -53,19 +68,16 @@ footer {
    margin-bottom: 20px;
 }
 
-
 .team-member img {
    width: 150px; /* Adjust size as needed */
    border-radius: 50%; /* Make the image round */
    margin-top: 10px;
 }
 
-
 .member-details {
    text-align: center;
    margin-bottom: 10px;
 }
-
 
 @media (max-width: 768px) {
    .team-member {
