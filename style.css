@@ -45,6 +45,9 @@ footer {
     color: #fff;
 }
 
+<div class="row">
+
+<div class="column">
 .team-member {
     display: flex;
     flex-direction: column;
@@ -52,17 +55,21 @@ footer {
     justify-content: center;
     margin-bottom: 20px;
 }
-
+</div>
+<div class="column">
 .team-member img {
     width: 150px; /* Adjust size as needed */
     border-radius: 50%; /* Make the image round */
     margin-top: 10px;
 }
-
+</div>
+<div class="column">
 .member-details {
     text-align: center;
     margin-bottom: 10px;
 }
+</div>
+</div>
 
 @media (max-width: 768px) {
     .team-member {
