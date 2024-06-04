@@ -1,45 +1,61 @@
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #FFA500; /* Orange */
+    background: #FF8C00; /* DarkOrange */
+    color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    color: #fff;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+
+#contact {
+    max-width: 800px;
+    margin: 1rem auto;
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-details {
+    flex: 1;
+}
+
+.contact-image img {
+    max-width: 150px; /* Adjust the size as needed */
+    margin-left: 20px;
 }
 
 section {
-    padding: 2rem;
-    text-align: center;
-}
-
-#what-is-matex {
-    background-color: #FFA500; /* Orange */
-    color: #000;
-}
-
-#key-features {
-    background-color: #FFD700; /* Gold */
-    color: #000;
-}
-
-#team {
-    background-color: #FFD700; /* Gold */
-    color: #000;
+    padding: 1rem 2rem;
+    margin: 1rem auto;
+    background: #fff;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    margin-bottom: 1rem;
-    color: #000;
+    border-bottom: 2px solid #FF4500; /* OrangeRed */
+    padding-bottom: 0.5rem;
 }
 
 ul {
@@ -48,44 +64,29 @@ ul {
 }
 
 ul li {
-    margin: 1rem 0;
+    background: #FFDAB9; /* PeachPuff */
+    margin: 0.5rem 0;
     padding: 0.5rem;
-    background-color: #FFA500; /* Orange */
     border-radius: 5px;
-    color: #000;
 }
 
 footer {
-    background-color: #FFA500; /* Orange */
-    padding: 1rem 0;
     text-align: center;
+    padding: 1rem 0;
+    background: #FF8C00; /* DarkOrange */
     color: #fff;
 }
 
-.team-member {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-.team-member img {
-    width: 150px;
-    border-radius: 50%;
-    margin-top: 1rem;
-}
-
-.member-details {
-    text-align: center;
-    margin-top: 1rem;
-}
-
+/* Media Queries for Responsive Design */
 @media (max-width: 768px) {
-    .team-member {
+    .contact-info {
         flex-direction: column;
+        align-items: flex-start;
     }
 
-    .team-member img {
-        margin-top: 0;
+    .contact-image img {
+        margin-left: 0;
+        margin-top: 20px;
+        max-width: 100%; /* Ensure the image fits within the screen */
     }
 }
