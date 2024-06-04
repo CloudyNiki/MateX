@@ -48,6 +48,8 @@ footer {
 .team-member {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .team-member img {
@@ -58,12 +60,13 @@ footer {
 
 .member-details {
     flex: 1;
+    text-align: left;
 }
 
 @media (max-width: 768px) {
     .team-member {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .team-member img {
