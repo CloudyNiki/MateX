@@ -1,75 +1,78 @@
+/* styles.css */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f4;
 }
 
 header h1 {
-  margin: 0;
-  padding: 1rem 0;
-  text-align: center;
-  color: #fff;
+   margin: 0;
+   padding: 1rem 0;
+   text-align: center;
+   color: #fff;
 }
 
 section {
-  padding: 1rem 2rem;
-  margin: 1rem auto;
-  max-width: 800px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   padding: 1rem 2rem;
+   margin: 1rem auto;
+   max-width: 800px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  border-bottom: 2px solid #FF8C00; /* DarkOrange */
-  padding-bottom: 0.5rem;
+   border-bottom: 2px solid #FF8C00; /* DarkOrange */
+   padding-bottom: 0.5rem;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+   list-style: none;
+   padding: 0;
 }
 
 ul li {
-  background: #FFA500; /* Orange */
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-  border-radius: 5px;
+   background: #FFA500; /* Orange */
+   margin: 0.5rem 0;
+   padding: 0.5rem;
+   border-radius: 5px;
 }
 
 footer {
-  text-align: center;
-  padding: 1rem 0;
-  background: #FFA500; /* Orange */
-  color: #fff;
+   text-align: center;
+   padding: 1rem 0;
+   background: #FFA500; /* Orange */
+   color: #fff;
 }
 
 .team-member {
-  display: flex;
-  flex-direction: row; /* Align items horizontally */
-  align-items: center;
-  justify-content: space-between; /* Distribute space evenly */
-  margin-bottom: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 20px;
 }
+
 
 .team-member img {
-  width: 150px; /* Adjust size as needed */
-  border-radius: 50%; /* Make the image round */
-  margin: 0 10px; /* Add spacing between image and text */
+   width: 150px; /* Adjust size as needed */
+   border-radius: 50%; /* Make the image round */
+   margin-top: 10px;
 }
+
 
 .member-details {
-  text-align: center;
-  margin-bottom: 10px;
+   text-align: center;
+   margin-bottom: 10px;
 }
 
+
 @media (max-width: 768px) {
-  /* Existing responsive styles for smaller screens */
-  .team-member {
-    flex-direction: column;
-  }
-  .team-member img {
-    margin-top: 0;
-    margin-right: 10px;
-  }
+   .team-member {
+       flex-direction: row;
+   }
+   .team-member img {
+       margin-top: 0;
+       margin-right: 10px;
+   }
 }
